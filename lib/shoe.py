@@ -20,7 +20,7 @@ class Shoe:
         self.condition = 'New'  
 
 
-shoe = Shoe('Nike', 9)
-print(f'Condition before repair: {shoe.condition}')
+shoe = Shoe('Addidas', 9)
+print(f'Condition befor repair: {shoe.condition}')
 shoe.cobble()
 print(f'Condition after repair: {shoe.condition}')
